@@ -1,3 +1,13 @@
+.link {
+    background-color: #3a25fa;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .limit-width {
+        @apply 2xl:max-w-5xl 2xl:mx-auto
+    }
+}

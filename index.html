@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <div class="fixed w-full px-20 py-2 top-0">
-        <nav class="flex items-center justify-between 2xl:max-w-5xl 2xl:mx-auto">
+    <div class="fixed w-full mx-auto py-2 top-0 z-50 bg-white">
+        <nav class="flex max-w-4xl mx-auto items-center justify-between limit-width">
             <div>
                 <img src="./assets/logo-horizontal.svg" class="h-10" alt="">
             </div>
@@ -39,8 +39,8 @@
         </nav>
     </div>
 
-    <div class="px-20 mt-16">
-        <div class="border-t flex justify-between py-5 font-semibold">
+    <div class="max-w-4xl mx-auto mt-16">
+        <div class="border-t flex justify-between py-5 font-semibold limit-width">
             <a href="#">Our Work</a>
             <a href="#">Support Wikipedia</a>
             <a href="#">Research</a>
@@ -52,18 +52,49 @@
         </div>
     </div>
 
-    <div class="h-80 relative bg-black">
+    <div class="h-96 relative bg-black overflow-hidden">
         <div class="absolute bg-dark-image animate-bg-slide h-full w-[200%] bg-repeat-x bg-cover"></div>
-        <div class="px-20">
-            <p class="bg-amber-400 w-1/3 py-2 px-5 translate-y-1/3 font-bold text-xl">
+        <div class="max-w-4xl mx-auto limit-width">
+            <a href="#" class="bg-amber-400 w-1/2 block hover:underline py-2 px-5 translate-y-1/3 font-bold text-xl">
                 The open the knowledge Journalism <br>
                 Awards recognizes journalists from <br>
                 Arfica who are closing knowledge <br>
                 gaps about the continent on <br>
                 Wikipedia. Enter now. -
-            </p>
+            </a>
         </div>
     </div>
+
+    <div class="max-w-4xl mx-auto mt-10">
+        <div class="limit-width flex gap-10">
+            <div class="">
+                The nonprofit Wikimedia Foundation provides the essential infrastructure <br>
+                for free knowledge. We host Wikipedia, the free online encyclopedia, created, <br>
+                edited, and verified by volunteers around the world, as well as many other <br>
+                vital community projects. All of which is made possible thanks to donations <br>
+                from individuals like you. We welcome anyone who shares our
+                vision to join <br> us in collecting and sharing knowledge that fully represents human diversity.
+            </div>
+            <div class="flex flex-col">
+                <p class="text-xl font-bold mb-5">Protect and sustain Wikipedia</p>
+                <a href="#" class="bg-link w-1/2 text-white items-center px-4 py-2">
+                    <i class="fa-solid fa-lock"></i>
+                    <span class="">Donate Now</span>
+                </a>
+                <span>Donations are secure</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-10 border-t max-w-4xl mx-auto py-5 space-x-5" >
+        <a href="#">English</a>
+        <a href="#" class="text-link">English</a>
+        <a href="#" class="text-link">Francais</a>
+        <a href="#" class="text-link">Francais</a>
+        <a href="#" class="text-link">Francais</a>
+        <a href="#" class="text-link">Francais</a>
+    </div>
+
 </body>
 
 </html>
