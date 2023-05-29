@@ -1,0 +1,23 @@
+{
+  "name": "wikimedia-foundation-clone",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyoneri/wikimedia-foundation-clone.git"
+  },
+  "keywords": [],
+  "author": "riyoneri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riyoneri/wikimedia-foundation-clone/issues"
+  },
+  "homepage": "https://github.com/riyoneri/wikimedia-foundation-clone#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
