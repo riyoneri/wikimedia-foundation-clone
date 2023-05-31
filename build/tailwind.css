@@ -2,6 +2,15 @@
   background-color: #3a25fa;
 }
 
+.language-link::after {
+  content: ".";
+  height: 4px;
+  position: relative;
+  display: inline-block;
+  margin: 0 1rem;
+  transform: translateY(-100%)
+}
+
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
@@ -546,16 +555,12 @@ video {
   position: relative;
 }
 
+.right-32 {
+  right: 8rem;
+}
+
 .top-0 {
   top: 0px;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
-.-z-50 {
-  z-index: -50;
 }
 
 .z-50 {
@@ -630,7 +635,7 @@ video {
   }
 
   50% {
-    transform: translateX(calc(-4237px + 100vw));
+    transform: translateX(calc(-100% + 100vw));
   }
 
   100% {
@@ -666,12 +671,6 @@ video {
   gap: 1.25rem;
 }
 
-.space-x-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -699,14 +698,14 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-pink-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
-}
-
 .bg-link {
   --tw-bg-opacity: 1;
   background-color: rgb(58 37 250 / var(--tw-bg-opacity));
+}
+
+.bg-pink-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -756,6 +755,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -769,12 +772,21 @@ video {
   font-weight: 600;
 }
 
+.text-link {
+  --tw-text-opacity: 1;
+  color: rgb(58 37 250 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-link {
+.hover\:bg-link-trans:hover {
+  background-color: rgba(58, 37, 250, .2);
+}
+
+.hover\:text-link:hover {
   --tw-text-opacity: 1;
   color: rgb(58 37 250 / var(--tw-text-opacity));
 }

@@ -8,6 +8,7 @@ module.exports = {
       },
       backgroundColor: {
         link: "#3a25fa",
+        "link-trans": "rgba(58, 37, 250, .2)",
       },
       colors: {
         link: "#3a25fa",
@@ -18,7 +19,7 @@ module.exports = {
       keyframes: {
         slide: {
           "0%": { transform: "translateX(0)" },
-          "50%": { transform: "translateX(calc(-4237px + 100vw))" },
+          "50%": { transform: "translateX(calc(-100% + 100vw))" },
           "100%": { transform: "translateX(0)" },
         },
       },
