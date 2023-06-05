@@ -9,6 +9,7 @@ module.exports = {
       backgroundColor: {
         link: "#3a25fa",
         "link-trans": "rgba(58, 37, 250, .2)",
+        "link-transer": "rgba(58, 37, 250, .1)"
       },
       colors: {
         link: "#3a25fa",
